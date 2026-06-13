@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\include\x64\Release\copy_codegen_incs</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\algebra\builtin\x64\Release\copy_codegen_linalg</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\x64\Release\copy_codegen_makefile</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\src\x64\Release\copy_codegen_srcs</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\x64\Release\copy_codegen_files</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

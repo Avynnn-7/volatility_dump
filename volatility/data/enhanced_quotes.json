@@ -1,0 +1,298 @@
+{
+  "spot": 100.0,
+  "riskFreeRate": 0.0525,
+  "dividendYield": 0.0145,
+  "valuationDate": "2024-03-18",
+  "currency": "USD",
+  "quotes": [
+    {
+      "strike": 80.0,
+      "expiry": 0.25,
+      "iv": 0.285,
+      "bid": 0.272,
+      "ask": 0.298,
+      "volume": 1250
+    },
+    {
+      "strike": 85.0,
+      "expiry": 0.25,
+      "iv": 0.245,
+      "bid": 0.233,
+      "ask": 0.257,
+      "volume": 2100
+    },
+    {
+      "strike": 90.0,
+      "expiry": 0.25,
+      "iv": 0.215,
+      "bid": 0.204,
+      "ask": 0.226,
+      "volume": 3400
+    },
+    {
+      "strike": 95.0,
+      "expiry": 0.25,
+      "iv": 0.195,
+      "bid": 0.185,
+      "ask": 0.205,
+      "volume": 5600
+    },
+    {
+      "strike": 100.0,
+      "expiry": 0.25,
+      "iv": 0.185,
+      "bid": 0.176,
+      "ask": 0.194,
+      "volume": 8900
+    },
+    {
+      "strike": 105.0,
+      "expiry": 0.25,
+      "iv": 0.190,
+      "bid": 0.181,
+      "ask": 0.199,
+      "volume": 7200
+    },
+    {
+      "strike": 110.0,
+      "expiry": 0.25,
+      "iv": 0.205,
+      "bid": 0.195,
+      "ask": 0.215,
+      "volume": 4500
+    },
+    {
+      "strike": 115.0,
+      "expiry": 0.25,
+      "iv": 0.225,
+      "bid": 0.214,
+      "ask": 0.236,
+      "volume": 2800
+    },
+    {
+      "strike": 120.0,
+      "expiry": 0.25,
+      "iv": 0.250,
+      "bid": 0.238,
+      "ask": 0.262,
+      "volume": 1650
+    },
+    {
+      "strike": 80.0,
+      "expiry": 0.50,
+      "iv": 0.265,
+      "bid": 0.252,
+      "ask": 0.278,
+      "volume": 980
+    },
+    {
+      "strike": 85.0,
+      "expiry": 0.50,
+      "iv": 0.235,
+      "bid": 0.223,
+      "ask": 0.247,
+      "volume": 1850
+    },
+    {
+      "strike": 90.0,
+      "expiry": 0.50,
+      "iv": 0.210,
+      "bid": 0.200,
+      "ask": 0.220,
+      "volume": 3200
+    },
+    {
+      "strike": 95.0,
+      "expiry": 0.50,
+      "iv": 0.190,
+      "bid": 0.181,
+      "ask": 0.199,
+      "volume": 5100
+    },
+    {
+      "strike": 100.0,
+      "expiry": 0.50,
+      "iv": 0.180,
+      "bid": 0.171,
+      "ask": 0.189,
+      "volume": 7800
+    },
+    {
+      "strike": 105.0,
+      "expiry": 0.50,
+      "iv": 0.175,
+      "bid": 0.166,
+      "ask": 0.184,
+      "volume": 6200
+    },
+    {
+      "strike": 110.0,
+      "expiry": 0.50,
+      "iv": 0.180,
+      "bid": 0.171,
+      "ask": 0.189,
+      "volume": 4100
+    },
+    {
+      "strike": 115.0,
+      "expiry": 0.50,
+      "iv": 0.190,
+      "bid": 0.181,
+      "ask": 0.199,
+      "volume": 2650
+    },
+    {
+      "strike": 120.0,
+      "expiry": 0.50,
+      "iv": 0.205,
+      "bid": 0.195,
+      "ask": 0.215,
+      "volume": 1550
+    },
+    {
+      "strike": 80.0,
+      "expiry": 1.00,
+      "iv": 0.245,
+      "bid": 0.233,
+      "ask": 0.257,
+      "volume": 750
+    },
+    {
+      "strike": 85.0,
+      "expiry": 1.00,
+      "iv": 0.225,
+      "bid": 0.214,
+      "ask": 0.236,
+      "volume": 1450
+    },
+    {
+      "strike": 90.0,
+      "expiry": 1.00,
+      "iv": 0.205,
+      "bid": 0.195,
+      "ask": 0.215,
+      "volume": 2800
+    },
+    {
+      "strike": 95.0,
+      "expiry": 1.00,
+      "iv": 0.190,
+      "bid": 0.181,
+      "ask": 0.199,
+      "volume": 4200
+    },
+    {
+      "strike": 100.0,
+      "expiry": 1.00,
+      "iv": 0.180,
+      "bid": 0.171,
+      "ask": 0.189,
+      "volume": 6500
+    },
+    {
+      "strike": 105.0,
+      "expiry": 1.00,
+      "iv": 0.175,
+      "bid": 0.166,
+      "ask": 0.184,
+      "volume": 5100
+    },
+    {
+      "strike": 110.0,
+      "expiry": 1.00,
+      "iv": 0.175,
+      "bid": 0.166,
+      "ask": 0.184,
+      "volume": 3400
+    },
+    {
+      "strike": 115.0,
+      "expiry": 1.00,
+      "iv": 0.180,
+      "bid": 0.171,
+      "ask": 0.189,
+      "volume": 2200
+    },
+    {
+      "strike": 120.0,
+      "expiry": 1.00,
+      "iv": 0.190,
+      "bid": 0.181,
+      "ask": 0.199,
+      "volume": 1350
+    },
+    {
+      "strike": 80.0,
+      "expiry": 2.00,
+      "iv": 0.225,
+      "bid": 0.214,
+      "ask": 0.236,
+      "volume": 520
+    },
+    {
+      "strike": 85.0,
+      "expiry": 2.00,
+      "iv": 0.210,
+      "bid": 0.200,
+      "ask": 0.220,
+      "volume": 1050
+    },
+    {
+      "strike": 90.0,
+      "expiry": 2.00,
+      "iv": 0.195,
+      "bid": 0.185,
+      "ask": 0.205,
+      "volume": 2100
+    },
+    {
+      "strike": 95.0,
+      "expiry": 2.00,
+      "iv": 0.185,
+      "bid": 0.176,
+      "ask": 0.194,
+      "volume": 3400
+    },
+    {
+      "strike": 100.0,
+      "expiry": 2.00,
+      "iv": 0.175,
+      "bid": 0.166,
+      "ask": 0.184,
+      "volume": 4800
+    },
+    {
+      "strike": 105.0,
+      "expiry": 2.00,
+      "iv": 0.170,
+      "bid": 0.162,
+      "ask": 0.178,
+      "volume": 3900
+    },
+    {
+      "strike": 110.0,
+      "expiry": 2.00,
+      "iv": 0.170,
+      "bid": 0.162,
+      "ask": 0.178,
+      "volume": 2600
+    },
+    {
+      "strike": 115.0,
+      "expiry": 2.00,
+      "iv": 0.175,
+      "bid": 0.166,
+      "ask": 0.184,
+      "volume": 1750
+    },
+    {
+      "strike": 120.0,
+      "expiry": 2.00,
+      "iv": 0.180,
+      "bid": 0.171,
+      "ask": 0.189,
+      "volume": 1100
+    }
+  ],
+  "_note": "Enhanced market data with realistic bid-ask spreads, volumes, and proper market parameters. This data represents typical SPY options with reasonable volatility surfaces."
+}

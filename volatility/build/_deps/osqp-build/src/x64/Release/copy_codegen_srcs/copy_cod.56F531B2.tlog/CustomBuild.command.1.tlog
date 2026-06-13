@@ -1,0 +1,68 @@
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\CMAKEFILES\B5FEF20EECABCEB3B6B13EEA2A248B29\AUXIL.C.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -E copy C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/src/auxil.c C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/codegen_src/src/auxil.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\CMAKEFILES\B5FEF20EECABCEB3B6B13EEA2A248B29\ERROR.C.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -E copy C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/src/error.c C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/codegen_src/src/error.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\CMAKEFILES\B5FEF20EECABCEB3B6B13EEA2A248B29\OSQP_API.C.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -E copy C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/src/osqp_api.c C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/codegen_src/src/osqp_api.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\CMAKEFILES\B5FEF20EECABCEB3B6B13EEA2A248B29\SCALING.C.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -E copy C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/src/scaling.c C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/codegen_src/src/scaling.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\CMAKEFILES\B5FEF20EECABCEB3B6B13EEA2A248B29\UTIL.C.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -E copy C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/src/util.c C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/codegen_src/src/util.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\CMAKEFILES\A2698D4C22C9D7B1E4C95999104B6F56\COPY_CODEGEN_SRCS.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\_DEPS\OSQP-SRC\SRC\CMAKELISTS.TXT
+setlocal
+C:\Cmake\bin\cmake.exe -SC:/storage/fin_proj/volatility_arbitrage_detection/volatility -BC:/storage/fin_proj/volatility_arbitrage_detection/volatility/build --check-stamp-file C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,28 @@
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\CMAKEFILES\B1681870E283D48EC44DB0A4DBE60C59\MAKEFILE.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -E copy C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/configure/Makefile.emosqp C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/codegen_src/Makefile
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\CMAKEFILES\AA1334CACE915F59E8967F2923B95CAD\COPY_CODEGEN_MAKEFILE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\_DEPS\OSQP-SRC\CMAKELISTS.TXT
+setlocal
+C:\Cmake\bin\cmake.exe -SC:/storage/fin_proj/volatility_arbitrage_detection/volatility -BC:/storage/fin_proj/volatility_arbitrage_detection/volatility/build --check-stamp-file C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

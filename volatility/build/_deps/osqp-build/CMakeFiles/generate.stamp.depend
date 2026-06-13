@@ -1,0 +1,27 @@
+# CMake generation dependency list for this directory.
+C:/Cmake/share/cmake-4.2/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Cmake/share/cmake-4.2/Modules/CMakeCInformation.cmake
+C:/Cmake/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake
+C:/Cmake/share/cmake-4.2/Modules/CMakeDependentOption.cmake
+C:/Cmake/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake
+C:/Cmake/share/cmake-4.2/Modules/CMakePackageConfigHelpers.cmake
+C:/Cmake/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Cmake/share/cmake-4.2/Modules/Compiler/MSVC-C.cmake
+C:/Cmake/share/cmake-4.2/Modules/Compiler/MSVC.cmake
+C:/Cmake/share/cmake-4.2/Modules/GNUInstallDirs.cmake
+C:/Cmake/share/cmake-4.2/Modules/Internal/CMakeCLinkerInformation.cmake
+C:/Cmake/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake
+C:/Cmake/share/cmake-4.2/Modules/Linker/MSVC-C.cmake
+C:/Cmake/share/cmake-4.2/Modules/Linker/MSVC.cmake
+C:/Cmake/share/cmake-4.2/Modules/Platform/Linker/Windows-MSVC-C.cmake
+C:/Cmake/share/cmake-4.2/Modules/Platform/Linker/Windows-MSVC.cmake
+C:/Cmake/share/cmake-4.2/Modules/Platform/Windows-MSVC-C.cmake
+C:/Cmake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake
+C:/Cmake/share/cmake-4.2/Modules/WriteBasicConfigVersionFile.cmake
+C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/CMakeFiles/4.2.1/CMakeCCompiler.cmake
+C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/CMakeFiles/cmake.verify_globs
+C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/CMakeLists.txt
+C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/configure/cmake/Utils.cmake
+C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/configure/cmake/cmake_uninstall.cmake.in
+C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/configure/osqp-config.cmake.in
+C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/configure/osqp_configure.h.in

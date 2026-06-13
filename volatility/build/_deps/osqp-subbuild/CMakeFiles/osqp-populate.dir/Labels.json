@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-subbuild/CMakeFiles/osqp-populate"
+		},
+		{
+			"file" : "C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-subbuild/CMakeFiles/182ec2cb363470e8c58e75d10a0d517b/osqp-populate.rule"
+		},
+		{
+			"file" : "C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-subbuild/CMakeFiles/3adc4dfede02d59234e9c03511886370/osqp-populate-complete.rule"
+		},
+		{
+			"file" : "C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-subbuild/CMakeFiles/8f2ee794c1529f5b935dca6970022b9f/osqp-populate-build.rule"
+		},
+		{
+			"file" : "C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-subbuild/CMakeFiles/8f2ee794c1529f5b935dca6970022b9f/osqp-populate-configure.rule"
+		},
+		{
+			"file" : "C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-subbuild/CMakeFiles/8f2ee794c1529f5b935dca6970022b9f/osqp-populate-download.rule"
+		},
+		{
+			"file" : "C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-subbuild/CMakeFiles/8f2ee794c1529f5b935dca6970022b9f/osqp-populate-install.rule"
+		},
+		{
+			"file" : "C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-subbuild/CMakeFiles/8f2ee794c1529f5b935dca6970022b9f/osqp-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-subbuild/CMakeFiles/8f2ee794c1529f5b935dca6970022b9f/osqp-populate-patch.rule"
+		},
+		{
+			"file" : "C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-subbuild/CMakeFiles/8f2ee794c1529f5b935dca6970022b9f/osqp-populate-test.rule"
+		},
+		{
+			"file" : "C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-subbuild/CMakeFiles/8f2ee794c1529f5b935dca6970022b9f/osqp-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"osqp-populate"
+		],
+		"name" : "osqp-populate"
+	}
+}

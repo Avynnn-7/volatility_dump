@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\src\benchmark_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\src\vol_surface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\src\arbitrage_detector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\src\qp_solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\src\dual_certificate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\src\local_vol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\src\svi_surface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\src\data_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\src\logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\src\config_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\src\vol_api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\src\profit_advisor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\src\upstox_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\src\raw_arbitrage_scanner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\json-src\nlohmann_json.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8B575DAE-FC15-323D-AACF-B90AFAC3E2BC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

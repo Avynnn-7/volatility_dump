@@ -1,0 +1,10 @@
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\7A96C6F2031F9213606BE64B83ECFCCE\GENERATE.STAMP.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -SC:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/json-subbuild -BC:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/json-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/json-subbuild/json-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-subbuild\CMakeFiles\182ec2cb363470e8c58e75d10a0d517b\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F75CD872-81AC-32C7-8A11-3759E941FD3D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

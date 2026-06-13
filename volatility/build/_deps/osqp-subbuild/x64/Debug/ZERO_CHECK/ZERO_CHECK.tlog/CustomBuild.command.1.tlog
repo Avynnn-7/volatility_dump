@@ -1,0 +1,10 @@
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\_DEPS\OSQP-SUBBUILD\CMAKEFILES\182EC2CB363470E8C58E75D10A0D517B\GENERATE.STAMP.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -SC:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-subbuild -BC:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-subbuild/osqp-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

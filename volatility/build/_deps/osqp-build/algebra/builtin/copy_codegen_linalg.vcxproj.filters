@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\0e32cd3aec174387181e68777737f8f8\algebra_impl.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\0e32cd3aec174387181e68777737f8f8\csc_math.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\0e32cd3aec174387181e68777737f8f8\csc_utils.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\0e32cd3aec174387181e68777737f8f8\kkt.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\0e32cd3aec174387181e68777737f8f8\qdldl.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\0e32cd3aec174387181e68777737f8f8\qdldl_interface.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\0e32cd3aec174387181e68777737f8f8\qdldl_types.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\0e32cd3aec174387181e68777737f8f8\qdldl_version.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\b5fef20eecabceb3b6b13eea2a248b29\algebra_libs.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\b5fef20eecabceb3b6b13eea2a248b29\csc_math.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\b5fef20eecabceb3b6b13eea2a248b29\csc_utils.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\b5fef20eecabceb3b6b13eea2a248b29\kkt.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\b5fef20eecabceb3b6b13eea2a248b29\matrix.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\b5fef20eecabceb3b6b13eea2a248b29\qdldl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\b5fef20eecabceb3b6b13eea2a248b29\qdldl_interface.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\b5fef20eecabceb3b6b13eea2a248b29\vector.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\58cd596f6a0ab3350362aca26f48e16e\copy_codegen_linalg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\builtin\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\algebra\builtin\CMakeFiles\copy_codegen_linalg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6BD101A0-4869-37FE-BE7D-B404806BD153}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

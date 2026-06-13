@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AF470541-5ACD-38CB-907F-DEBF915856C9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>osqpstatic</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\out\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">osqpstatic.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">osqpstatic</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\out\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">osqpstatic.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">osqpstatic</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\out\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">osqpstatic.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">osqpstatic</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\out\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">osqpstatic.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">osqpstatic</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\include\public;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\include\public;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\include\private;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\include\private;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\builtin\..\_common;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\builtin;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl\amd\include;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl\qdldl_sources\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\include\public;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\include\public;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\include\private;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\include\private;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\builtin\..\_common;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\builtin;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl\amd\include;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl\qdldl_sources\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\include\public;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\include\public;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\include\private;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\include\private;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\builtin\..\_common;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\builtin;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl\amd\include;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl\qdldl_sources\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\include\public;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\include\public;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\include\private;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\include\private;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\builtin\..\_common;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\builtin;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl\amd\include;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl\qdldl_sources\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\include\public;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\include\public;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\include\private;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\include\private;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\builtin\..\_common;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\builtin;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl\amd\include;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl\qdldl_sources\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\include\public;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\include\public;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\include\private;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\include\private;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\builtin\..\_common;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\builtin;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl\amd\include;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl\qdldl_sources\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\include\public;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\include\public;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\include\private;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\include\private;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\builtin\..\_common;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\builtin;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl\amd\include;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl\qdldl_sources\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\include\public;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\include\public;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\include\private;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\include\private;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\builtin\..\_common;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\builtin;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl\amd\include;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl\qdldl_sources\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\include\public;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\include\public;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\include\private;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\include\private;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\builtin\..\_common;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\builtin;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl\amd\include;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl\qdldl_sources\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\include\public;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\include\public;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\include\private;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\include\private;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\builtin\..\_common;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\builtin;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl\amd\include;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl\qdldl_sources\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\include\public;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\include\public;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\include\private;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\include\private;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\builtin\..\_common;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\builtin;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl\amd\include;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl\qdldl_sources\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\include\public;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\include\public;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\include\private;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\include\private;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\builtin\..\_common;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\builtin;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl\amd\include;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl\qdldl_sources\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Cmake\bin\cmake.exe -SC:/storage/fin_proj/volatility_arbitrage_detection/volatility -BC:/storage/fin_proj/volatility_arbitrage_detection/volatility/build --check-stamp-file C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Cmake\share\cmake-4.2\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Cmake\share\cmake-4.2\Modules\CMakeCInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeDependentOption.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Cmake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Cmake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;C:\Cmake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Cmake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;C:\Cmake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\4.2.1\CMakeCCompiler.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\cmake.verify_globs;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\configure\cmake\Utils.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\configure\cmake\cmake_uninstall.cmake.in;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\configure\osqp-config.cmake.in;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\configure\osqp_configure.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Cmake\bin\cmake.exe -SC:/storage/fin_proj/volatility_arbitrage_detection/volatility -BC:/storage/fin_proj/volatility_arbitrage_detection/volatility/build --check-stamp-file C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Cmake\share\cmake-4.2\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Cmake\share\cmake-4.2\Modules\CMakeCInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeDependentOption.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Cmake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Cmake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;C:\Cmake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Cmake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;C:\Cmake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\4.2.1\CMakeCCompiler.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\cmake.verify_globs;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\configure\cmake\Utils.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\configure\cmake\cmake_uninstall.cmake.in;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\configure\osqp-config.cmake.in;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\configure\osqp_configure.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Cmake\bin\cmake.exe -SC:/storage/fin_proj/volatility_arbitrage_detection/volatility -BC:/storage/fin_proj/volatility_arbitrage_detection/volatility/build --check-stamp-file C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Cmake\share\cmake-4.2\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Cmake\share\cmake-4.2\Modules\CMakeCInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeDependentOption.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Cmake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Cmake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;C:\Cmake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Cmake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;C:\Cmake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\4.2.1\CMakeCCompiler.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\cmake.verify_globs;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\configure\cmake\Utils.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\configure\cmake\cmake_uninstall.cmake.in;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\configure\osqp-config.cmake.in;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\configure\osqp_configure.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Cmake\bin\cmake.exe -SC:/storage/fin_proj/volatility_arbitrage_detection/volatility -BC:/storage/fin_proj/volatility_arbitrage_detection/volatility/build --check-stamp-file C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Cmake\share\cmake-4.2\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Cmake\share\cmake-4.2\Modules\CMakeCInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeDependentOption.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Cmake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Cmake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;C:\Cmake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Cmake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;C:\Cmake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\4.2.1\CMakeCCompiler.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\cmake.verify_globs;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\configure\cmake\Utils.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\configure\cmake\cmake_uninstall.cmake.in;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\configure\osqp-config.cmake.in;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\configure\osqp_configure.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\auxil.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\error.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\scaling.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\util.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\polish.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\derivative.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\interrupt_windows.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\timing_windows.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\codegen.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\csc_math.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\csc_utils.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\algebra_libs.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\vector.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\matrix.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\SuiteSparse_config.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\amd_1.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\amd_2.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\amd_aat.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\amd_control.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\amd_defaults.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\amd_info.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\amd_order.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\amd_post_tree.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\amd_postorder.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\amd_preprocess.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\amd_valid.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\kkt.obj" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.dir\$(Configuration)\qdldl_interface.obj" />
+    <ClCompile Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\src\osqp_api.c" />
+    <Object Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\qdldl-build\qdldlobject.dir\$(Configuration)\qdldl.obj" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\ZERO_CHECK.vcxproj">
+      <Project>{82D22E59-A986-3A2E-8FD5-B640BB967AAD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.vcxproj">
+      <Project>{01BBBEC7-B8FE-35AD-B25A-8FF1DB851AE5}</Project>
+      <Name>OSQPLIB</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\qdldl-build\qdldlobject.vcxproj">
+      <Project>{E28E3934-63E3-3989-A224-D4610F64CA8F}</Project>
+      <Name>qdldlobject</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

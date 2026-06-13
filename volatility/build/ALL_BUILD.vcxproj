@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4238CEC9-971B-395F-A3D8-82C3243CA789}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\storage\fin_proj\volatility_arbitrage_detection\volatility\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\storage\fin_proj\volatility_arbitrage_detection\volatility\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\storage\fin_proj\volatility_arbitrage_detection\volatility\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\storage\fin_proj\volatility_arbitrage_detection\volatility\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/storage/fin_proj/volatility_arbitrage_detection/volatility/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Cmake\bin\cmake.exe -SC:/storage/fin_proj/volatility_arbitrage_detection/volatility -BC:/storage/fin_proj/volatility_arbitrage_detection/volatility/build --check-stamp-file C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Cmake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Cmake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Cmake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake;C:\Cmake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Cmake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Cmake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Cmake\share\cmake-4.2\Modules\FindDoxygen.cmake;C:\Cmake\share\cmake-4.2\Modules\FindGit.cmake;C:\Cmake\share\cmake-4.2\Modules\FindOpenMP.cmake;C:\Cmake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Cmake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Cmake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake;C:\Cmake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\4.2.1\CMakeCXXCompiler.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\4.2.1\CMakeRCCompiler.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\4.2.1\CMakeSystem.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\cmake.verify_globs;C:\vcpkg\buildtrees\eigen3\x64-windows-dbg\Eigen3Config.cmake;C:\vcpkg\buildtrees\eigen3\x64-windows-dbg\Eigen3ConfigVersion.cmake;C:\vcpkg\buildtrees\eigen3\x64-windows-dbg\Eigen3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/storage/fin_proj/volatility_arbitrage_detection/volatility/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Cmake\bin\cmake.exe -SC:/storage/fin_proj/volatility_arbitrage_detection/volatility -BC:/storage/fin_proj/volatility_arbitrage_detection/volatility/build --check-stamp-file C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Cmake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Cmake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Cmake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake;C:\Cmake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Cmake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Cmake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Cmake\share\cmake-4.2\Modules\FindDoxygen.cmake;C:\Cmake\share\cmake-4.2\Modules\FindGit.cmake;C:\Cmake\share\cmake-4.2\Modules\FindOpenMP.cmake;C:\Cmake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Cmake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Cmake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake;C:\Cmake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\4.2.1\CMakeCXXCompiler.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\4.2.1\CMakeRCCompiler.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\4.2.1\CMakeSystem.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\cmake.verify_globs;C:\vcpkg\buildtrees\eigen3\x64-windows-dbg\Eigen3Config.cmake;C:\vcpkg\buildtrees\eigen3\x64-windows-dbg\Eigen3ConfigVersion.cmake;C:\vcpkg\buildtrees\eigen3\x64-windows-dbg\Eigen3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/storage/fin_proj/volatility_arbitrage_detection/volatility/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Cmake\bin\cmake.exe -SC:/storage/fin_proj/volatility_arbitrage_detection/volatility -BC:/storage/fin_proj/volatility_arbitrage_detection/volatility/build --check-stamp-file C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Cmake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Cmake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Cmake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake;C:\Cmake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Cmake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Cmake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Cmake\share\cmake-4.2\Modules\FindDoxygen.cmake;C:\Cmake\share\cmake-4.2\Modules\FindGit.cmake;C:\Cmake\share\cmake-4.2\Modules\FindOpenMP.cmake;C:\Cmake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Cmake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Cmake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake;C:\Cmake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\4.2.1\CMakeCXXCompiler.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\4.2.1\CMakeRCCompiler.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\4.2.1\CMakeSystem.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\cmake.verify_globs;C:\vcpkg\buildtrees\eigen3\x64-windows-dbg\Eigen3Config.cmake;C:\vcpkg\buildtrees\eigen3\x64-windows-dbg\Eigen3ConfigVersion.cmake;C:\vcpkg\buildtrees\eigen3\x64-windows-dbg\Eigen3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/storage/fin_proj/volatility_arbitrage_detection/volatility/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Cmake\bin\cmake.exe -SC:/storage/fin_proj/volatility_arbitrage_detection/volatility -BC:/storage/fin_proj/volatility_arbitrage_detection/volatility/build --check-stamp-file C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Cmake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Cmake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Cmake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake;C:\Cmake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Cmake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Cmake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Cmake\share\cmake-4.2\Modules\FindDoxygen.cmake;C:\Cmake\share\cmake-4.2\Modules\FindGit.cmake;C:\Cmake\share\cmake-4.2\Modules\FindOpenMP.cmake;C:\Cmake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Cmake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Cmake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Cmake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake;C:\Cmake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Cmake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\4.2.1\CMakeCXXCompiler.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\4.2.1\CMakeRCCompiler.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\4.2.1\CMakeSystem.cmake;C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\cmake.verify_globs;C:\vcpkg\buildtrees\eigen3\x64-windows-dbg\Eigen3Config.cmake;C:\vcpkg\buildtrees\eigen3\x64-windows-dbg\Eigen3ConfigVersion.cmake;C:\vcpkg\buildtrees\eigen3\x64-windows-dbg\Eigen3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\ZERO_CHECK.vcxproj">
+      <Project>{82D22E59-A986-3A2E-8FD5-B640BB967AAD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\OSQPLIB.vcxproj">
+      <Project>{01BBBEC7-B8FE-35AD-B25A-8FF1DB851AE5}</Project>
+      <Name>OSQPLIB</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\copy_codegen_files.vcxproj">
+      <Project>{60FCD626-9337-3880-A423-E861A3EF9C83}</Project>
+      <Name>copy_codegen_files</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\osqp.vcxproj">
+      <Project>{B44A3F10-60FA-3DF3-B98C-C285DC212BEF}</Project>
+      <Name>osqp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\osqp_codegen_demo.vcxproj">
+      <Project>{3AA70E1E-D973-32AE-BB74-003E342BF036}</Project>
+      <Name>osqp_codegen_demo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\osqp_demo.vcxproj">
+      <Project>{DD845ECF-028B-3BB9-8481-C9743FD401F8}</Project>
+      <Name>osqp_demo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-build\osqpstatic.vcxproj">
+      <Project>{AF470541-5ACD-38CB-907F-DEBF915856C9}</Project>
+      <Name>osqpstatic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\vol_api_server.vcxproj">
+      <Project>{50C3BFEE-C912-3667-98D7-914132E25F99}</Project>
+      <Name>vol_api_server</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\vol_arb.vcxproj">
+      <Project>{8BDB6EFF-C654-3296-A617-C55301BD8ECB}</Project>
+      <Name>vol_arb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\vol_benchmark.vcxproj">
+      <Project>{3F34861C-03AE-34D4-9BAC-B5A3610E808B}</Project>
+      <Name>vol_benchmark</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\vol_tests.vcxproj">
+      <Project>{147BD9D2-190E-3A04-ADC7-AC177316DCCB}</Project>
+      <Name>vol_tests</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

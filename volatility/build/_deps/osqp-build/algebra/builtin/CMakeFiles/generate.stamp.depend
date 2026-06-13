@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/Cmake/share/cmake-4.2/Modules/ExternalProject/shared_internal_commands.cmake
+C:/Cmake/share/cmake-4.2/Modules/FetchContent.cmake
+C:/Cmake/share/cmake-4.2/Modules/FetchContent/CMakeLists.cmake.in
+C:/Cmake/share/cmake-4.2/Modules/FindGit.cmake
+C:/Cmake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake
+C:/Cmake/share/cmake-4.2/Modules/FindPackageMessage.cmake
+C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/CMakeFiles/cmake.verify_globs
+C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/algebra/_common/lin_sys/qdldl/qdldl.cmake
+C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/algebra/builtin/CMakeLists.txt

@@ -1,0 +1,178 @@
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\CMAKEFILES\0E32CD3AEC174387181E68777737F8F8\ALGEBRA_IMPL.H.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -E copy C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/algebra/builtin/algebra_impl.h C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/codegen_src/inc/private/algebra_impl.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\CMAKEFILES\0E32CD3AEC174387181E68777737F8F8\CSC_MATH.H.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -E copy C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/algebra/_common/csc_math.h C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/codegen_src/inc/private/csc_math.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\CMAKEFILES\0E32CD3AEC174387181E68777737F8F8\CSC_UTILS.H.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -E copy C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/algebra/_common/csc_utils.h C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/codegen_src/inc/private/csc_utils.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\CMAKEFILES\0E32CD3AEC174387181E68777737F8F8\KKT.H.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -E copy C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/algebra/_common/kkt.h C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/codegen_src/inc/private/kkt.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\CMAKEFILES\0E32CD3AEC174387181E68777737F8F8\QDLDL.H.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -E copy C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/algebra/_common/lin_sys/qdldl/qdldl_sources/include/qdldl.h C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/codegen_src/inc/private/qdldl.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\CMAKEFILES\0E32CD3AEC174387181E68777737F8F8\QDLDL_INTERFACE.H.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -E copy C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/algebra/_common/lin_sys/qdldl/qdldl_interface.h C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/codegen_src/inc/private/qdldl_interface.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\CMAKEFILES\0E32CD3AEC174387181E68777737F8F8\QDLDL_TYPES.H.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -E copy C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/algebra/_common/lin_sys/qdldl/qdldl_codegen_types.h.in C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/codegen_src/inc/private/qdldl_types.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\CMAKEFILES\0E32CD3AEC174387181E68777737F8F8\QDLDL_VERSION.H.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -E copy C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/algebra/_common/lin_sys/qdldl/qdldl_sources/include/qdldl_version.h C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/codegen_src/inc/private/qdldl_version.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\CMAKEFILES\B5FEF20EECABCEB3B6B13EEA2A248B29\ALGEBRA_LIBS.C.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -E copy C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/algebra/builtin/algebra_libs.c C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/codegen_src/src/algebra_libs.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\CMAKEFILES\B5FEF20EECABCEB3B6B13EEA2A248B29\CSC_MATH.C.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -E copy C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/algebra/_common/csc_math.c C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/codegen_src/src/csc_math.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\CMAKEFILES\B5FEF20EECABCEB3B6B13EEA2A248B29\CSC_UTILS.C.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -E copy C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/algebra/_common/csc_utils.c C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/codegen_src/src/csc_utils.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\CMAKEFILES\B5FEF20EECABCEB3B6B13EEA2A248B29\KKT.C.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -E copy C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/algebra/_common/kkt.c C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/codegen_src/src/kkt.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\CMAKEFILES\B5FEF20EECABCEB3B6B13EEA2A248B29\MATRIX.C.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -E copy C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/algebra/builtin/matrix.c C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/codegen_src/src/matrix.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\CMAKEFILES\B5FEF20EECABCEB3B6B13EEA2A248B29\QDLDL.C.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -E copy C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/algebra/_common/lin_sys/qdldl/qdldl_sources/src/qdldl.c C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/codegen_src/src/qdldl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\CMAKEFILES\B5FEF20EECABCEB3B6B13EEA2A248B29\QDLDL_INTERFACE.C.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -E copy C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/algebra/_common/lin_sys/qdldl/qdldl_interface.c C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/codegen_src/src/qdldl_interface.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\CMAKEFILES\B5FEF20EECABCEB3B6B13EEA2A248B29\VECTOR.C.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -E copy C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/algebra/builtin/vector.c C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/codegen_src/src/vector.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\CMAKEFILES\58CD596F6A0AB3350362ACA26F48E16E\COPY_CODEGEN_LINALG.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\_DEPS\OSQP-SRC\ALGEBRA\BUILTIN\CMAKELISTS.TXT
+setlocal
+C:\Cmake\bin\cmake.exe -SC:/storage/fin_proj/volatility_arbitrage_detection/volatility -BC:/storage/fin_proj/volatility_arbitrage_detection/volatility/build --check-stamp-file C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-build/algebra/builtin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

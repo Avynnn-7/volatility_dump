@@ -1,0 +1,7 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The patch step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+command (connected)=C:/Cmake/bin/cmake.exe;-Dcan_fetch=YES;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/qdldl-subbuild/qdldl-populate-prefix/tmp/qdldl-populate-gitupdate.cmake
+command (disconnected)=C:/Cmake/bin/cmake.exe;-Dcan_fetch=NO;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/qdldl-subbuild/qdldl-populate-prefix/tmp/qdldl-populate-gitupdate.cmake
+work_dir=C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-src/algebra/_common/lin_sys/qdldl/qdldl_sources

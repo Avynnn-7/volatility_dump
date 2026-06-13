@@ -1,0 +1,29 @@
+{
+  "spot": 100.0,
+  "quotes": [
+    { "strike":  80.0, "expiry": 0.25, "iv": 0.28 },
+    { "strike":  90.0, "expiry": 0.25, "iv": 0.22 },
+    { "strike": 100.0, "expiry": 0.25, "iv": 0.35 },
+    { "strike": 110.0, "expiry": 0.25, "iv": 0.21 },
+    { "strike": 120.0, "expiry": 0.25, "iv": 0.26 },
+
+    { "strike":  80.0, "expiry": 0.50, "iv": 0.27 },
+    { "strike":  90.0, "expiry": 0.50, "iv": 0.23 },
+    { "strike": 100.0, "expiry": 0.50, "iv": 0.21 },
+    { "strike": 110.0, "expiry": 0.50, "iv": 0.22 },
+    { "strike": 120.0, "expiry": 0.50, "iv": 0.25 },
+
+    { "strike":  80.0, "expiry": 1.00, "iv": 0.26 },
+    { "strike":  90.0, "expiry": 1.00, "iv": 0.23 },
+    { "strike": 100.0, "expiry": 1.00, "iv": 0.22 },
+    { "strike": 110.0, "expiry": 1.00, "iv": 0.23 },
+    { "strike": 120.0, "expiry": 1.00, "iv": 0.25 },
+
+    { "strike":  80.0, "expiry": 2.00, "iv": 0.25 },
+    { "strike":  90.0, "expiry": 2.00, "iv": 0.23 },
+    { "strike": 100.0, "expiry": 2.00, "iv": 0.22 },
+    { "strike": 110.0, "expiry": 2.00, "iv": 0.23 },
+    { "strike": 120.0, "expiry": 2.00, "iv": 0.24 }
+  ],
+  "_note": "Deliberate butterfly violation at K=100 T=0.25: IV=35% is far above wings (22%/21%), making the smile concave and the risk-neutral density negative at ATM."
+}

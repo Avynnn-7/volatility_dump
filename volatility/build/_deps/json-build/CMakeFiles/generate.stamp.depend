@@ -1,0 +1,11 @@
+# CMake generation dependency list for this directory.
+C:/Cmake/share/cmake-4.2/Modules/CMakePackageConfigHelpers.cmake
+C:/Cmake/share/cmake-4.2/Modules/ExternalProject.cmake
+C:/Cmake/share/cmake-4.2/Modules/ExternalProject/shared_internal_commands.cmake
+C:/Cmake/share/cmake-4.2/Modules/GNUInstallDirs.cmake
+C:/Cmake/share/cmake-4.2/Modules/WriteBasicConfigVersionFile.cmake
+C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/CMakeFiles/cmake.verify_globs
+C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/json-src/CMakeLists.txt
+C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/json-src/cmake/config.cmake.in
+C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/json-src/cmake/nlohmann_jsonConfigVersion.cmake.in
+C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/json-src/cmake/pkg-config.pc.in

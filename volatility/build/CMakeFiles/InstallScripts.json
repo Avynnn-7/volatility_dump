@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/cmake_install.cmake",
+		"C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/json-build/cmake_install.cmake",
+		"C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-build/cmake_install.cmake",
+		"C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-build/include/cmake_install.cmake",
+		"C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-build/src/cmake_install.cmake",
+		"C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-build/algebra/cmake_install.cmake",
+		"C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/osqp-build/algebra/builtin/cmake_install.cmake",
+		"C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/qdldl-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

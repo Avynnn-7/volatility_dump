@@ -1,0 +1,150 @@
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\_DEPS\QDLDL-SUBBUILD\CMAKEFILES\DE3FF949A86F3BED450F6A8D0F9BA010\QDLDL-POPULATE-MKDIR.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -Dcfgdir=/Debug -P C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/qdldl-subbuild/qdldl-populate-prefix/tmp/qdldl-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Cmake\bin\cmake.exe -E touch C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/qdldl-subbuild/qdldl-populate-prefix/src/qdldl-populate-stamp/Debug/qdldl-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\_DEPS\QDLDL-SUBBUILD\CMAKEFILES\DE3FF949A86F3BED450F6A8D0F9BA010\QDLDL-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Cmake\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/qdldl-subbuild/qdldl-populate-prefix/tmp/qdldl-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Cmake\bin\cmake.exe -E touch C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/qdldl-subbuild/qdldl-populate-prefix/src/qdldl-populate-stamp/Debug/qdldl-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\_DEPS\QDLDL-SUBBUILD\CMAKEFILES\DE3FF949A86F3BED450F6A8D0F9BA010\QDLDL-POPULATE-UPDATE.RULE
+setlocal
+cd C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\osqp-src\algebra\_common\lin_sys\qdldl\qdldl_sources
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Cmake\bin\cmake.exe -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/qdldl-subbuild/qdldl-populate-prefix/tmp/qdldl-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\_DEPS\QDLDL-SUBBUILD\CMAKEFILES\DE3FF949A86F3BED450F6A8D0F9BA010\QDLDL-POPULATE-PATCH.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Cmake\bin\cmake.exe -E touch C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/qdldl-subbuild/qdldl-populate-prefix/src/qdldl-populate-stamp/Debug/qdldl-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\_DEPS\QDLDL-SUBBUILD\CMAKEFILES\DE3FF949A86F3BED450F6A8D0F9BA010\QDLDL-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\qdldl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Cmake\bin\cmake.exe -E touch C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/qdldl-subbuild/qdldl-populate-prefix/src/qdldl-populate-stamp/Debug/qdldl-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\_DEPS\QDLDL-SUBBUILD\CMAKEFILES\DE3FF949A86F3BED450F6A8D0F9BA010\QDLDL-POPULATE-BUILD.RULE
+setlocal
+cd C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\qdldl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Cmake\bin\cmake.exe -E touch C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/qdldl-subbuild/qdldl-populate-prefix/src/qdldl-populate-stamp/Debug/qdldl-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\_DEPS\QDLDL-SUBBUILD\CMAKEFILES\DE3FF949A86F3BED450F6A8D0F9BA010\QDLDL-POPULATE-INSTALL.RULE
+setlocal
+cd C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\qdldl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Cmake\bin\cmake.exe -E touch C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/qdldl-subbuild/qdldl-populate-prefix/src/qdldl-populate-stamp/Debug/qdldl-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\_DEPS\QDLDL-SUBBUILD\CMAKEFILES\DE3FF949A86F3BED450F6A8D0F9BA010\QDLDL-POPULATE-TEST.RULE
+setlocal
+cd C:\storage\fin_proj\volatility_arbitrage_detection\volatility\build\_deps\qdldl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Cmake\bin\cmake.exe -E touch C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/qdldl-subbuild/qdldl-populate-prefix/src/qdldl-populate-stamp/Debug/qdldl-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\_DEPS\QDLDL-SUBBUILD\CMAKEFILES\727F9F37D4A0043FA9836DC8120D0201\QDLDL-POPULATE-COMPLETE.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -E make_directory C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/qdldl-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+C:\Cmake\bin\cmake.exe -E touch C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/qdldl-subbuild/CMakeFiles/Debug/qdldl-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+C:\Cmake\bin\cmake.exe -E touch C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/qdldl-subbuild/qdldl-populate-prefix/src/qdldl-populate-stamp/Debug/qdldl-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\_DEPS\QDLDL-SUBBUILD\CMAKEFILES\E4E0D3824B18DDB48BFF099E87F969A3\QDLDL-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\STORAGE\FIN_PROJ\VOLATILITY_ARBITRAGE_DETECTION\VOLATILITY\BUILD\_DEPS\QDLDL-SUBBUILD\CMAKELISTS.TXT
+setlocal
+C:\Cmake\bin\cmake.exe -SC:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/qdldl-subbuild -BC:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/qdldl-subbuild --check-stamp-file C:/storage/fin_proj/volatility_arbitrage_detection/volatility/build/_deps/qdldl-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
